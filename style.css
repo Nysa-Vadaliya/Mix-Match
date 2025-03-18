@@ -5,9 +5,8 @@
   font-style: normal;
 }
 
-
-/* setup of page */
-html, body {
+/*setup of page */
+body {
   height: 100%;
   margin: 0;
   background: linear-gradient(180deg, #0a0a29, #1b3b5f, #0a0a0a);
@@ -18,7 +17,7 @@ html, body {
 font-family: "Henny Penny", sans-serif;
 }
 
-/* spacing */
+/*spacing*/
 .container {
 width: 80%;
 max-width: 800px;
@@ -42,15 +41,14 @@ h1 {
   margin-bottom: 20px;
 }
 
-/* Styling for image*/
+/*Styling for image*/
 .little {
   width: 100%;
  max-width: 600px;
   border: 5px #F2A20C;
   border-radius: 8px;
 }
-
-/* caption */
+/*caption */
 .caption {
   color: #F2A20C;
   font-size: 16px;
