@@ -4,7 +4,14 @@
   font-weight: 400;
   font-style: normal;
 }
-
+.tektur-<uniquifier> {
+  font-family: "Tektur", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
 
 /* setup of page */
 body {
@@ -52,6 +59,6 @@ h1 {
 .caption {
   font-style: italic;
   color: #F2A20C;
-  font-size: 16px;
-  
+  font-size: 20px;
+  font-family: "Tektur", sans-serif;
 }
